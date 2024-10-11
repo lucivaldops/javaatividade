@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Problem {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        int A, B, PROD;
+        
+        A = sc.nextInt();
+        B = sc.nextInt();
+        
+        // Calculate the product of A and B
+        PROD = A * B;
+
+        // Print the result
+        System.out.println("PROD = " + PROD);
+    }
+}
